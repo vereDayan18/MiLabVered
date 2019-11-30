@@ -6,6 +6,12 @@ import android.media.MediaPlayer;
 import android.os.IBinder;
 
 
+/**
+ * The BackgroundMusic sets a service to play a background song
+ * that will play as long as the app is running
+ * uses a MediaPlayer
+ *
+ */
 
 public class BackgroundMusic extends Service {
     private static final String TAG = null;

@@ -11,7 +11,10 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
-
+/**
+ * This class implements the RecyclerView adapter
+ * Initializes the ViewHolder
+ */
 
 public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
         ArrayList<Person> list;
